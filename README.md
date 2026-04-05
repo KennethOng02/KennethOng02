@@ -1,37 +1,46 @@
-# Hi! I'm Kenneth Ong👨‍💻
+# Hi! I'm Kenneth Ong👋
 
-I'm currently an undergraduate students National Taiwan Normal University, studying Computer Science. I'm interested about web development as well as information security. I am passionate about learning new technologies and constantly seek ways to broaden my understanding in the world of IT.
+Full Stack Developer | Tech Enthusiast | Building practical system
 
-## Languages & Tools:
+## Tech Stack
 
-<p>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="35" height="35" />          
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="35" height="35" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="35" height="35" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="35" height="35" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="35" height="35" />          
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="35" height="35" />        
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="35" height="35" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="35" height="35" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" width="35" height="35" /> 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" width="35" height="35" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="35" height="35" />          
-</p>
+**Frontend:** React.js · Next.js · SvelteKit · Flutter · Vite
 
-[![Kenneth's GitHub stats](https://github-readme-stats.vercel.app/api?username=KennethOng02&show_icons=true&theme=gruvbox)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KennethOng02&size_weight=0.5&count_weight=0.5&layout=compact&hide=html,css,lua,cython,jupyter%20notebook,scss,fortran)](https://github.com/anuraghazra/github-readme-stats)
+**Backend:** Django · Flask · Spring Boot · Node.js
 
-<!--
-**KennethOng02/KennethOng02** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Databases:** MySQL · Firebase · Supabase
 
-Here are some ideas to get you started:
+**Tools & DevOps:** Git · Docker · Podman · Vercel · Vitest
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Connect With Me
+
+- Email: <kennethongkp@gmail.com>
+
+- LinkedIn: [Kenneth Ong Kuan Phing](https://www.linkedin.com/in/kenneth-kuan-phing-ong-5b31322b8/)
+
+- Website: [kennethong02.github.io/](https://kennethong02.github.io/)
+
+## Top Projects
+
+### [CFA — Calisthenic Form Analyzer](https://github.com/KennethOng02/cfa)
+
+Full-stack app that analyzes calisthenics hold videos using MediaPipe pose detection, geometric scoring, and LLM-generated coaching feedback.
+
+1. Upload a video and select the move
+2. Frames are extracted at 2 FPS and run through MediaPipe pose detection
+3. The longest stable-pose window is identified
+4. Geometric metrics (angles, alignment, lean) are scored against calibration curves
+5. An LLM generates coaching feedback from the scores
+6. Results are displayed with a skeleton overlay on the best frame and a score trend chart
+
+**Moves:** planche · front lever · back lever · handstand
+
+**Stack:** FastAPI · React · TypeScript · MediaPipe · OpenCV · Claude/OpenAI/Gemini (configurable)
+
+---
+
+### [Personal Site](https://kennethong02.github.io/)
+
+A minimal, fast personal site built with SvelteKit — doubles as a knowledge base powered by RAG. My Obsidian vault is indexed and embedded, so visitors can chat with my notes and surface connections across everything I've written. Think of it as a searchable second brain, publicly accessible.
+
+**Stack:** SvelteKit · TypeScript
